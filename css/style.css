@@ -2,8 +2,9 @@ header {
     background-color: #EEE;
     display: flex;
     border-bottom: 2px solid #ddd;
-    position: fixed;
+    position:fixed;
     width: 100%;
+    z-index: 1;
 }
 
 
@@ -81,7 +82,26 @@ h2 {
     display: flex;
     width: 98%;
     justify-content: center;
+    position: relative;
+}
 
+
+.curiosidades-item img:hover {
+    opacity: 0.1;
+}
+
+h3 {    
+    position: absolute;
+    color: #DDD;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    text-justify: distribute-all-lines;
+    font-size: 24px;
+    text-shadow: 2px 2px black;
 }
 
 .curiosidades-item img {
@@ -104,7 +124,6 @@ h2 {
 }
 
 .video-item {
-    /* border: 2px solid blue; */
     width: 1200px; 
     height: 700px;
     border-radius: 10px;
