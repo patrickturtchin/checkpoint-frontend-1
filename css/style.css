@@ -90,7 +90,7 @@ h2 {
     opacity: 0.1;
 }
 
-h3 {    
+.curiosidades-item h3 {    
     position: absolute;
     color: #DDD;
     top: 50%;
